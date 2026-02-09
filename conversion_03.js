@@ -14,16 +14,16 @@ let result;
 let newScore = null;        // => typeof object
 let bigNumber = 12587n; 
 
-// // console.table([typeof (score), typeof name, typeof isBoy, typeof result, typeof newScore, typeof bigNumber]);
+console.table([typeof (score), typeof name, typeof isBoy, typeof result, typeof newScore, typeof bigNumber]);
 
 
 // // // conversion 👇👇👇👇👇👇
  
-// let age = "20";
+let age1 = "20";
 
-// //console.log(typeof(age));
+//console.log(typeof(age1));
 
-let valueinNumber = Number (age);
+let valueinNumber = Number (age1);
 
 // // console.log(typeof valueinNumber);
 
