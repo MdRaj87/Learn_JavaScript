@@ -1,1 +1,1 @@
-console.log(array);
+console.log(course.courseInstructor);
