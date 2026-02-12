@@ -48,7 +48,30 @@ console.log(calculateCartPrice(200, 500, 400, 2000));
 const user = {
     usernam: "Light",
     price: 199
+}   
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
 }
+
+// handleObject(user);
+
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+// array in function
+
+const myNewArray = [200, 400, 100, 800]
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 800, 2000]));
+
 
 
 
