@@ -46,20 +46,20 @@ const myObject = {
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 coding.forEach(function(val) {
-        console.log(val);
+        // console.log(val);
 
 } )
 
 // Method 2 
 
 coding.forEach((item) => {
-    console.log("Method 2 ", item );
+    // console.log("Method 2 ", item );
 })
 
 // Method 03 
 
 function printMe(item){
-    console.log(item);
+   // console.log(item);
 }
 coding.forEach(printMe);
 
@@ -81,7 +81,19 @@ const mycoding = [
     }
 ]
 
+// forEach laga kar object ko access kar rahe hai
 mycoding.forEach((item) => {
 
-    console.log(item.languageName);
+    // console.log(item.languageName);
+})          
+
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// aero function lga kar array ko acces kar rahe hai
+const newNums = myNums.filter((num) => {
+    return num > 4
 })
+// console.log(newNums);
+
+
+
